@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecr-auth-helper-config
+data:
+  AWS_DEFAULT_REGION: "eu-central-1"
+  REGISTRY_USERNAME: "AWS"
+  TARGET_SECRET_NAME: "registry"
+  TARGET_NAMESPACE: "develop"
